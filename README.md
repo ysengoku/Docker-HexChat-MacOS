@@ -32,8 +32,7 @@ Open XQuartz and enable network connections:
 docker build -t hexchat-docker .
 
 # Run the HexChat Docker container with GUI support enabled
-docker run -e DISPLAY=host.docker.internal:0 --rm hexchat-docker
-
+docker run -e DISPLAY=host.docker.internal:0 --rm --name hexchat-docker hexchat
 ```
 
 ### 4. **Connect HexChat to Your IRC Server**
