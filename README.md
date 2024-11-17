@@ -37,8 +37,14 @@ docker run -e DISPLAY=host.docker.internal:0 --rm --name hexchat-docker hexchat
 
 ### 4. **Connect HexChat to Your IRC Server**
 Use HexChat’s GUI to connect to your server for testing.
-- Add a new network and edit Servers to `host.docker.internal:6667`.
-- If you use our ft_irc Server, remove the check from `Use SSL for all the servers on this network`.
+
+
+> If you are using our [ft_irc server](https://github.com/faboussard/42-irc),
+> - Add a new network and edit "Servers" to `host.docker.internal:6667`.
+> - Disable the "Use SSL for all the servers on this network" option.
+>     
+> These two configurations are automated in Dockerfile.
+
 
 ## 🐳 Stop a Docker Container
 
