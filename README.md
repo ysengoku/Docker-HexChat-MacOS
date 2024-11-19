@@ -1,4 +1,4 @@
-# Docker HexChat for macOS  
+# HexChat for macOS using Docker 
 
 This repository provides a Docker-based environment to run **HexChat** on macOS.  
 Since HexChat is no longer supported on macOS, this project enables you to use HexChat via Docker while maintaining a graphical user interface (GUI). It is specifically designed for IRC server testing and related development.   
